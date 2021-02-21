@@ -141,3 +141,13 @@ h1, h2, h3{
     align-items: flex-end;
 }
 
+
+/* aqui vamos a modificar la seccion de servicios*/
+@media (min-width: 768px) { 
+.servicios{
+    display: grid; /* grid es para asignar columnas o filas dependiendo lo que queramos*/
+    grid-template-columns: 1fr 1fr 1fr; /* 1 fr = 33.3% en este caso, es una fraccion*/
+
+    /*grid: 200px 800px / 300px 300px; esto es para resumir lo anterior. primero las filas despues columnas*/
+}
+}
